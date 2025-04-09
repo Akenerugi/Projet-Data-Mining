@@ -1,0 +1,26 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "projet DataMining explaination",
+  "steps": [
+    {
+      "file": "librairie.py",
+      "description": "We import all the usefull librairies that will enable us to work and do this project",
+      "line": 1
+    },
+    {
+      "file": "librairie.py",
+      "description": "We download punkt and stopwords to use them for the summarization",
+      "line": 10
+    },
+    {
+      "file": "librairie.py",
+      "description": "This function thanks to beautifulsoup, extract the text directly from the list of URLs that we give it directly by getting into the HTML code of the sites",
+      "line": 14
+    },
+    {
+      "file": "librairie.py",
+      "description": "This function is used to clean the text, delete all the transition word used in the concerned language (here english) and also takes out the commas and also lowerize all the text to not get disturbed by the capital letters , we try to keep a text as simple and understandable possible for the next function to read and analyze to create a summ up",
+      "line": 34
+    }
+  ]
+}
